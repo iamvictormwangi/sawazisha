@@ -1,0 +1,17 @@
+{
+  "name": "sawazisha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --no-source-map sawazisha.sass sawazisha.css && csso sawazisha.css >> sawazisha.min.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csso": "^5.0.5",
+    "csso-cli": "^4.0.2",
+    "sass": "^1.76.0"
+  }
+}
